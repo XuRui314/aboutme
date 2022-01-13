@@ -37,10 +37,6 @@ html {
     width: 100%
 }
 
-#universe{
-    position: absolute;
-    z-index: 99;
-}
 .background.fixed {
     position: fixed;
     top: -60%
@@ -48,34 +44,22 @@ html {
 
 .background {
     position: absolute;
-    background-image: url(../images/star.jpg);
-    background-repeat: no-repeat;
-    /* background-size: cover; */
     top: 0;
     left: 0;
     width: 100vw;
-    height: 100vh;
-    
+    height: 100vh
 }
-.filter{
-    position: fixed;
-    background-color:#202020;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    opacity: 0.65;
-}
+
 .background .cover {
     position: absolute;
-    bottom: -40%;
+    bottom: -42%;
     left: 0;
     height: 100%;
     width: 100%;
-    background: linear-gradient(0deg, #202020 40%, rgba(32, 32, 32, 0))
+    background: linear-gradient(0deg, #202020 30%, rgba(32, 32, 32, 0))
 }
 
-/* @keyframes bg {
+@keyframes bg {
     0% {
         transform: rotate(0deg);
         border-radius: 0
@@ -141,7 +125,7 @@ html {
         transform: rotate(1turn);
         border-radius: 0
     }
-} */
+}
 
 nav {
     position: fixed;
@@ -185,12 +169,11 @@ nav a:hover {
 
 .ch {
     width: 100%;
-    padding: 40px 0;
+    padding: 80px 0;
     animation: fadedown 1s cubic-bezier(.19, 1, .22, 1);
     -webkit-animation: fadedown 1s cubic-bezier(.19, 1, .22, 1);
     -ms-animation: fadedown 1s cubic-bezier(.19, 1, .22, 1);
-    -moz-animation: fadedown 1s cubic-bezier(.19, 1, .22, 1);
-    z-index:10
+    -moz-animation: fadedown 1s cubic-bezier(.19, 1, .22, 1)
 }
 
 .ch h2.chtitle {
@@ -853,3 +836,5 @@ ul.skill li .progress div {
         letter-spacing: .2em
     }
 }
+
+/*# sourceMappingURL=/h.9c69ed6c.css.map */
